@@ -1,0 +1,101 @@
+🤖 Offline Chatbot with Python, Streamlit, and Ollama
+
+📌 Introduction
+
+This project is an offline chatbot built using Python, Streamlit, and Ollama. It allows users to communicate with a local AI language model without sending their conversations to an online AI service.
+
+🎯 Project Goals
+
+- Build a simple AI chatbot.
+- Run a language model locally.
+- Create an interactive web interface using Streamlit.
+- Store chat conversations in a file.
+- Summarize conversations using an AI model.
+
+🛠️ Technologies Used
+
+- Python: The main programming language.
+- Streamlit: To create the chatbot interface.
+- Ollama: To run AI language models locally.
+- Gemma 3 (1B): The language model used to generate responses.
+
+✨ Features
+
+- Chat with a locally running AI model.
+- Send messages and receive AI-generated responses.
+- Display conversation history.
+- Clear chat history.
+- Save conversations to a file.
+- Summarize the conversation and save the summary in a separate file.
+- Run locally without requiring an online AI API.
+
+📦 Installation
+
+1. Install Python
+
+Download and install Python from the official website.
+
+2. Install Ollama
+
+Download Ollama and install it on your computer.
+
+3. Download the AI Model
+
+Open your terminal and run:
+
+ollama pull gemma3:1b
+
+4. Install Required Libraries
+
+pip install streamlit requests
+
+🚀 How to Run
+
+1. Open the project folder in your terminal.
+2. Make sure Ollama is running.
+3. Run the following command:
+
+streamlit run app.py
+
+4. Open the local address displayed in the terminal to use the chatbot.
+
+📁 Project Structure
+
+offline-chatbot/
+│
+├── app.py
+├── utils.py
+├── chat_history.txt
+├── chat_summary.txt
+└── README.md
+
+Note: The file names may vary depending on your project structure.
+
+🔒 Why an Offline Chatbot?
+
+An offline chatbot runs its AI model on the user's computer. This can reduce dependence on internet services and provide more control over conversation data.
+
+After downloading the model, chatting can work without an internet connection, provided the local model and required software are available.
+
+📚 Learning Outcomes
+
+By developing this project, I practiced:
+
+- Python programming
+- Working with AI language models
+- Using Streamlit widgets
+- Managing session state
+- Sending HTTP requests
+- Reading and writing files
+- Prompt engineering
+- Generating conversation summaries
+
+🔗 Useful Resources
+
+- "Streamlit Documentation" (https://docs.streamlit.io/)
+- "Ollama Official Website" (https://ollama.com/)
+- "Ollama GitHub Repository" (https://github.com/ollama/ollama)
+
+👩‍💻 Author
+
+Developed as a Python and AI learning project.
